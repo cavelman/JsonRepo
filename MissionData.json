@@ -1,0 +1,41 @@
+[
+	{
+		"Name": "0",
+		"index": 1,
+		"title": "Change Color",
+		"info": "Find an unmovable box and change it's color.",
+		"caution": true,
+		"mission_order": 1,
+		"mission_step_list": [
+			"BlueprintGeneratedClass'/Game/Tutorial/Elman/FirstPersonBP/Blueprints/GUI/Missions/Mission_Steps/Steps/Step_1.Step_1_C'"
+		],
+		"mission_step_orders": [ 1 ]
+	},
+	{
+		"Name": "1",
+		"index": 2,
+		"title": "Change Materials",
+		"info": "Add gross to ground and change wall material. (It doesn't matter what order you do it)",
+		"caution": false,
+		"mission_order": 1,
+		"mission_step_list": [
+			"BlueprintGeneratedClass'/Game/Tutorial/Elman/FirstPersonBP/Blueprints/GUI/Missions/Mission_Steps/Steps/Step_2.Step_2_C'",
+			"BlueprintGeneratedClass'/Game/Tutorial/Elman/FirstPersonBP/Blueprints/GUI/Missions/Mission_Steps/Steps/Step_3.Step_3_C'"
+		],
+		"mission_step_orders": [ 1, 1 ]
+	},
+	{
+		"Name": "2",
+		"index": 3,
+		"title": "Last Mission",
+		"info": "Mission with Order: Firstly click Button-1 then Button-2 and finally Button-3 to finish the mission.",
+		"caution": false,
+		"mission_order": 2,
+		"mission_step_list": [
+			"BlueprintGeneratedClass'/Game/Tutorial/Elman/FirstPersonBP/Blueprints/GUI/Missions/Mission_Steps/Steps/Step_4.Step_4_C'",
+			"BlueprintGeneratedClass'/Game/Tutorial/Elman/FirstPersonBP/Blueprints/GUI/Missions/Mission_Steps/Steps/Step_5.Step_5_C'",
+			"BlueprintGeneratedClass'/Game/Tutorial/Elman/FirstPersonBP/Blueprints/GUI/Missions/Mission_Steps/Steps/Step_6.Step_6_C'"
+		],
+		"mission_step_orders": [ 1, 1, 2 ]
+	}
+]
